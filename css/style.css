@@ -1,0 +1,323 @@
+/** CSS Reset **/
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/** Utility Classes **/
+.grid
+{
+    display: grid;
+}
+
+.gridTemp2Cols
+{
+    grid-template-columns: 1fr 1fr;
+}
+.gridTemp3Cols
+{
+    grid-template-columns: 1.8fr .4fr 1.8fr;
+}
+
+.font-size
+{
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.font-size2
+{
+    font-size: 12px;
+    padding-left: 10px;
+    
+  
+}
+
+.white
+{
+    color:white;
+}
+
+.IconSize
+{
+    font-size: 24px;
+}
+::placeholder
+{
+    color:white;
+}
+.aTag
+{
+    text-decoration: none;
+    color:#b73030;
+
+}
+.cart
+{
+    color:#ffffff;
+    padding-right: 8px;
+}
+
+.shopButton
+{
+    text-decoration: none;
+    padding:10px 20px;
+    background-color: #b73030;
+    color:white;
+    display: inline-block;
+}
+
+header
+{
+    display: grid;
+}
+
+header a
+{
+    text-decoration: none;
+    color:#4d5052;
+    text-align: center;
+    vertical-align:unset;
+
+}
+
+/** Header Section **/
+
+header li
+{
+    display: inline-block;
+     
+}
+
+.icon1
+{
+   padding-top: 20px;
+   padding-left: 30px;
+    display: inline-block;
+   
+}
+
+.icon2
+{
+    
+ 
+    display:inline-block;
+    padding-left: 30px;
+   
+}
+
+
+
+header > nav li:nth-child(5)
+{
+   /** padding:20px 25px 15px px; **/
+   padding-right: 30px;
+
+}
+
+header > nav li
+{
+  padding:20px 10px 15px 5px; 
+  
+
+}
+
+
+
+header > div:nth-child(2)
+{
+ 
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+header > div:nth-child(2) > img
+{
+    width:95px;
+    max-width: 95px;
+    object-fit: cover;
+  
+}
+
+header > nav
+{
+    
+    text-align: right;
+}
+
+#hero
+{
+    column-gap: 8px;
+}
+
+#hero > div:nth-child(1)
+{
+    width:100%;
+    height: 93vh;
+    
+
+
+    background-image: url('../img/hero1.webp'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+
+}
+
+
+#hero > div:nth-child(2)
+{
+    width:100%;
+    height: 93vh;
+    background-image: url('../img/hero2.webp'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+
+}
+
+
+#discount
+{
+    background-color: #b73030;    
+    color:white;
+    padding:10px 15px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+#heroMale
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: right;
+    
+}
+
+#heroMale > div
+{
+    justify-self: right;
+}
+
+
+
+#heroMale > div>span:nth-child(1)
+{
+    
+    display: inline-block;
+    border:0;
+    color:white;
+
+}
+
+#heroMale > div>span:nth-child(2)
+{
+    display: inline-block;
+    
+    background-color: #393c3e;
+
+}
+
+
+
+#heroMale > div>span:nth-child(1) > input
+{
+    background-color: #393c3e;
+    padding:10px 40px;
+    border:0;
+    color:white;
+   
+
+}
+
+#heroMale > div>span:nth-child(2),button
+{
+    background-color: #393c3e;
+    border:0;
+    padding: 5px 10px;
+ 
+}
+
+#heroMale > div>span:nth-child(1) > input:hover
+{
+    background-color: blue;
+    border: 1px solid red;
+}
+
+#heroMale > div>span:nth-child(3)
+{
+  background-color: white;
+    padding: 8px 10px 9px 10px;
+    display:inline-block;
+    border:0;
+
+}
+
+#heroMale > div>span:nth-child(4)
+{
+  
+    background-color:#b73030;
+    padding:8px 18px 9px 18px;
+    display:inline-block;
+    border:0;
+    text-align: center;
+}
+
+#heroMale > div>span:nth-child(4) > span
+{
+    background-color: #ffffff ;
+    padding: 2px 6px;
+    border-radius: 50% 50%;
+    color:#b73030;;
+}
+
+#banner
+{
+    background-color:white;
+    width: 80%;
+    height: 150px;
+    position:absolute;
+    bottom: 15%;
+    justify-self: center;
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    text-align: center;
+    align-content: center;
+
+
+}
+
+#banner > div:nth-child(2) > h1
+{
+    font-family: 'Ropa Sans', sans-serif; 
+    color:#0f2c66;
+    font-weight: bolder;
+    font-size: 2rem;
+
+
+}
+
+#banner > div:nth-child(2) > p
+{
+
+}
+
+
+#clothesGallery1
+{
+    background-color: red;
+    margin: 20px 20px;
+}
+
+#clothesGallery1 > h2
+{
+    background-color: yellow;
+}
+
+#clothesGallery1 > div
+{
+    
+}
