@@ -79,6 +79,9 @@
 header
 {
     display: grid;
+    position: sticky;
+    background-color: white;
+    top:0;
 }
 
 header a
@@ -348,6 +351,7 @@ header > nav
     background-image: url(../img/jeans1.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 
 
 }
@@ -359,6 +363,7 @@ header > nav
     background-image: url(../img/rose.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
  
 
 }
@@ -370,6 +375,7 @@ header > nav
     background-image: url(../img/blazer.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
  
 
 }
@@ -381,6 +387,7 @@ header > nav
     background-image: url(../img/female_jean.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
  
 
 }
@@ -392,6 +399,7 @@ header > nav
     background-image: url(../img/handbag.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
  
 
 }
@@ -403,6 +411,7 @@ header > nav
     background-image: url(../img/jacket1.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
  
 
 }
@@ -480,16 +489,46 @@ header > nav
 {
     display: grid;
     grid-template-columns: 2.4fr 1.6fr;
+    background-color: #e0effb;
+
 }
 
 #allDenim > div:nth-child(2)
 {
+    /*
     width: 100%;
-    height: 100vh;
+    
     background-image: url(../img/friends.webp);
     background-repeat: no-repeat;
     background-size:cover;
-    background-position:center;
+    background-position:center;  */
+}
+
+#friends > img
+{
+    width:100%;
+    height: 80vh;
+    
+    object-fit:unset;
+ 
+   
+}
+
+#allDenim > div:nth-child(1)
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#allDenim > div:nth-child(1) > div
+{
+    width: 60%;
+    justify-self: center;
+
+    
+    
+    
+    background-color: mediumaquamarine;
 }
 
 
